@@ -1,6 +1,5 @@
 function userPlay() {
     let userPick = ["rock", "paper", "scissors"];
-    alert("Mayusculas activadas, por favor escribe en minúsculas")
     return userPick = prompt('Pick rock, paper or scissors').toLowerCase();
 }
 
