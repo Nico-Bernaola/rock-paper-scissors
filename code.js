@@ -47,6 +47,6 @@ let result = playRound(userChoice, computerSelection)
 console.log("user's choice", userChoice);
 console.log("computer's choice", computerSelection);
 console.log("Result is", result);
-document.getElementById("user-choice").textContent = "User's choice: " + userChoice;
+document.getElementById("user-choice").textContent = "Your choice: " + userChoice;
 document.getElementById("computer-choice").textContent = "computer's choice: " + computerSelection;
 document.getElementById("result").textContent = "Result is: " + result;
