@@ -1,9 +1,10 @@
 function userPlay() {
     let userPick = ["rock", "paper", "scissors"];
     alert("Mayusculas activadas, por favor escribe en minúsculas")
-    return userPick = prompt('Pick rock, paper or scissors');
-
+    return userPick = prompt('Pick rock, paper or scissors').toLowerCase();
 }
+
+
 
 function computerPlay() { //computer generates a random answer.
     let random = ["rock", "paper", "scissors"];
@@ -40,7 +41,8 @@ if (playerSelection == "rock") {
 }
 }
 
-
+playRound().toUpperCase();
+console.log(playRound());
 let userChoice = userPlay();
 let computerSelection = computerPlay();
 let result = playRound(userChoice, computerSelection)
