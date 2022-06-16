@@ -75,3 +75,18 @@ body{
     letter-spacing: 4px;
     gap: 35px;
 }
+
+#prompt-scores {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    color: #fff;
+    border: none;
+    margin: 20px;
+    padding: 20px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    gap: 35px;
+}
