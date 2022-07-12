@@ -10,6 +10,18 @@ body{
     background: #111;
   }
 
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 400px;
+    align-items: center;
+  }
+
+  .buttons {
+    display: flex;
+  }
+
   .btn{
     color: #fff;
     border: none;
@@ -76,17 +88,16 @@ body{
     gap: 35px;
 }
 
-#prompt-scores {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #fff;
-    color: #fff;
-    border: none;
-    margin: 20px;
-    padding: 20px 30px;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    gap: 35px;
+.copyright {
+  display: flex;
+  margin-left: auto;
+  flex-direction: column;
+  height: 100px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: rgba(255, 255, 255, 0.61);
+  margin-top: auto;
+  position: relative;
+  bottom: 0;
+  font-style: italic;
 }
